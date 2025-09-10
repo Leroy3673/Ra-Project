@@ -25,7 +25,9 @@ dependencies = [
     "psycopg2-binary (>=2.9.10,<3.0.0)",
     "sentence-transformers (>=5.1.0,<6.0.0)",
     "langchain-huggingface (>=0.3.1,<0.4.0)",
-    "langchain-ollama (>=0.3.7,<0.4.0)"
+    "langchain-ollama (>=0.3.7,<0.4.0)",
+    "clerk-backend-api (>=3.3.0,<4.0.0)",
+    "clerk-backend-sdk (>=1.1.1,<2.0.0)"
 ]
 
 
