@@ -7,8 +7,25 @@ authors = [
 ]
 license = {text = "None"}
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10, <4.0"
 dependencies = [
+    "python-docx (>=1.2.0,<2.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "langchain (>=0.3.27,<0.4.0)",
+    "langsmith (>=0.4.27,<0.5.0)",
+    "langchain-community (>=0.3.29,<0.4.0)",
+    "langchain-qdrant (>=0.2.0,<0.3.0)",
+    "langchain-chroma (>=0.1.2)",
+    "chromadb (>=1.0.20,<2.0.0)",
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "sentence-transformers (>=5.1.0,<6.0.0)",
+    "langchain-huggingface (>=0.3.1,<0.4.0)",
+    "langchain-ollama (>=0.3.7,<0.4.0)"
 ]
 
 
